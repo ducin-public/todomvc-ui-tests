@@ -1,14 +1,42 @@
-# Clone of [todomvc-jquery@7d5d1260](https://github.com/tastejs/todomvc/tree/7d5d1260142736d992867a6138dad48e2fca4847/examples/jquery)
+# run
 
-# install
-
-Fetch dependencies:
+* install dependencies:
 
     npm install
 
+* serve original javascript sources:
+
+    npm run hs
+
+* develop with `webpack-dev-server`:
+
+    npm start
+
+# compile
+
+    npm run compile
+
 # run
 
-    npm run hs # http://localhost:8080
+* bundle for production with `webpack`:
+
+    npm run build
+
+* open in browser: http://localhost:8080
+
+# installing types
+
+When installing types, note that `jquery` used here is version 2, as well
+as handlebars. Therefore, when installing `@types`, don't just install
+the most recent version. Stick to e.g.:
+  * `@types/jquery@2`
+  * `@types/handlebars@3`
+
+They reflect these (older) versions of the libraries. Otherwise, you can use
+the latest `@types` - but then you need to bump up versions of actual
+`jquery` and `handlebars`. The typings for the libraries must match their versions.
+
+# Clone of [todomvc-jquery@7d5d1260](https://github.com/tastejs/todomvc/tree/7d5d1260142736d992867a6138dad48e2fca4847/examples/jquery)
 
 *original readme below...*
 
