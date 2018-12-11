@@ -1,7 +1,7 @@
 {
-  "name": "typescript-refactor",
-  "private": true,
+  "name": "todomvc-ui-tests",
   "author": "Tomasz Ducin <tomasz@ducin.it>",
+  "private": true,
   "scripts": {
     "compile": "tsc",
     "start": "webpack-dev-server",
