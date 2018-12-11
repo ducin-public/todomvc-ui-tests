@@ -1,0 +1,22 @@
+{
+  "name": "todomvc-e2e",
+  "version": "1.0.0",
+  "scripts": {
+    "e2e": "protractor",
+    "e2e-debug": "node --inspect-brk node_modules/protractor/bin/protractor protractor.conf.js",
+    "e2e-driver": "webdriver-manager start",
+    "e2e-prepare": "webdriver-manager update --gecko false --standalone false",
+    "lint": "tslint -c tslint.json ./e2e/**/*.ts"
+  },
+  "devDependencies": {
+    "@types/jasmine": "2.5.45",
+    "jasmine": "^3.3.1",
+    "jasmine-reporters": "^2.3.2",
+    "jasmine-spec-reporter": "^4.2.1",
+    "protractor": "^5.4.1",
+    "protractor-jasmine2-screenshot-reporter": "^0.5.0",
+    "ts-node": "^4.1.0",
+    "tslint": "^5.11.0",
+    "typescript": "^3.2.2"
+  }
+}
